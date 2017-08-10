@@ -1,2 +1,4 @@
 cd /path/to/your/dir/
-git  pull https://user:passsword@bitbucket.org/gaurav4thpointer/feedback.wobot.in.git
+#git  pull https://{USERNAME}:{PASSWORD}@bitbucket.org/{USERNAME}/{REPOSITORY}.git
+git pull
+git checkout $1
